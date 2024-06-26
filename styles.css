@@ -1,0 +1,45 @@
+body{
+    background-color: steelblue;
+    display: flex;
+    padding: 20px;
+    padding-right: 80px;
+    justify-content: center;
+}
+
+.div{
+    width: 700px;
+    height: 700px;
+    /* margin: 0 auto; */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 36px;
+    display: flex;  
+    justify-content: center;
+}
+
+#button{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 20px;
+    position: relative;
+
+}
+
+#divWithAbsolute{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-color: bisque;
+    border-radius: 8px;
+    font-size: 20px;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
