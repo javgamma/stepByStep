@@ -1,4 +1,4 @@
-export  const items = [
+export  const products = [
     {
         id: 'e9c6bcd48a5b460c7c0b01de4b3ed269',
         product_Name : "Hamburger 🍔",
